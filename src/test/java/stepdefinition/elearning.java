@@ -29,6 +29,31 @@ public class elearning {
 		driver.findElement(By.id("pass")).sendKeys(password);	   
 	}
 
+	
+
+@When("user enter valid Username {string} and password {string}")
+public void user_enter_valid_Username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@When("User enter value in user name field")
+public void user_enter_value_in_user_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@When("user enter value in password field")
+public void user_enter_value_in_password_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Then("Login button enabled")
+public void login_button_enabled() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
 
 	@When("user click on Submit button")
 	public void user_click_on_Submit_button() {

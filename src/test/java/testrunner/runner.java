@@ -9,7 +9,13 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(
 		features = "src/test/java/feature",
-		glue ={"stepdefinition"}
+		glue ={"stepdefinition"},
+		monochrome = true,
+		dryRun = false,
+		//tags={"@Regression","@Smoke"},  //And condition
+		//tags={"@Regression,@Smoke"},  //OR condition
+		//tags={"~@Regression"},  //skipping tag
+		plugin = {"pretty","html:Reports","json:Reports/jsonreport.json","junit:Reports/xmlreport.xml" }
 		)
 
 public class runner {
