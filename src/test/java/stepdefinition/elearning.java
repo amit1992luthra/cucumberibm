@@ -7,16 +7,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import hooks.hooksclass;
 
 public class elearning {
 	
-	WebDriver driver;
+	WebDriver driver = hooksclass.driver;
 	
 	@Given("User is on homepage")
 	public void user_is_on_homepage() {
 		
-		System.setProperty("webdriver.chrome.driver", ".//lib//chromedriver.exe");
-		driver = new ChromeDriver();
+		
 		driver.get("https://www.facebook.com/");
 	    
 	}

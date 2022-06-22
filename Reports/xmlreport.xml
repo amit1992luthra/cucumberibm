@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="3" time="9.087963">
-<testcase classname="Elearning login page" name="Login with unauthorized user" time="4.028344">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="3" time="13.141238">
+<testcase classname="Elearning login page" name="Login with unauthorized user" time="6.983412">
 <system-out><![CDATA[Given User is on homepage...................................................passed
 When user enter invalid Username "amit" and password "123456"...............passed
 Then validation message appears.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Elearning login page" name="Login with authorized user" time="2.455523">
+<testcase classname="Elearning login page" name="Login with authorized user" time="3.103">
 <skipped><![CDATA[Given User is on homepage...................................................passed
 When user enter valid Username "amit" and password "123456".................pending
 Then validation message appears.............................................skipped
 ]]></skipped>
 </testcase>
-<testcase classname="Elearning login page" name="verify login page" time="2.604096">
+<testcase classname="Elearning login page" name="verify login page" time="3.054826">
 <skipped><![CDATA[Given User is on homepage...................................................passed
 When User enter value in user name field....................................pending
 And user enter value in password field......................................skipped

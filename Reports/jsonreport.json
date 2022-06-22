@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3812378500,
+              "duration": 1396943900,
               "status": "passed"
             },
             "line": 4,
@@ -24,17 +24,39 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-22T05:04:07.327Z",
+        "start_timestamp": "2022-06-22T06:13:35.843Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4636067600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
         "line": 14,
         "name": "Login with unauthorized user",
         "description": "",
         "id": "elearning-login-page;login-with-unauthorized-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 716334600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.quit()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 211827000,
+              "duration": 231122900,
               "status": "passed"
             },
             "line": 9,
@@ -56,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 133300,
+              "duration": 149900,
               "status": "passed"
             },
             "line": 10,
@@ -88,7 +110,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2452998100,
+              "duration": 1115104800,
               "status": "passed"
             },
             "line": 4,
@@ -101,18 +123,40 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-22T05:04:11.356Z",
+        "start_timestamp": "2022-06-22T06:13:42.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1278132400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
         "line": 24,
         "name": "Login with authorized user",
         "description": "",
         "id": "elearning-login-page;login-with-authorized-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 705812900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.quit()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
               "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefinition.elearning.user_enter_valid_Username_and_password(elearning.java:37)\r\n\tat ✽.user enter valid Username \"amit\" and password \"123456\"(file:src/test/java/feature/elearning.feature:19)\r\n",
-              "duration": 2074800,
+              "duration": 3196300,
               "status": "pending"
             },
             "line": 19,
@@ -134,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 10900,
+              "duration": 42200,
               "status": "skipped"
             },
             "line": 20,
@@ -160,7 +204,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2603600900,
+              "duration": 1148694600,
               "status": "passed"
             },
             "line": 4,
@@ -173,18 +217,40 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-22T05:04:13.820Z",
+        "start_timestamp": "2022-06-22T06:13:45.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1226263400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
         "line": 28,
         "name": "verify login page",
         "description": "",
         "id": "elearning-login-page;verify-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 679341700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.quit()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
               "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefinition.elearning.user_enter_value_in_user_name_field(elearning.java:43)\r\n\tat ✽.User enter value in user name field(file:src/test/java/feature/elearning.feature:29)\r\n",
-              "duration": 235200,
+              "duration": 209300,
               "status": "pending"
             },
             "line": 29,
@@ -196,7 +262,7 @@
           },
           {
             "result": {
-              "duration": 24500,
+              "duration": 9100,
               "status": "skipped"
             },
             "line": 30,
@@ -208,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 6700,
+              "duration": 4300,
               "status": "skipped"
             },
             "line": 31,

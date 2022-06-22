@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(
 		features = "src/test/java/feature",
-		glue ={"stepdefinition"},
+		glue ={"stepdefinition","hooks"},
 		monochrome = true,
 		dryRun = false,
 		//tags={"@Regression","@Smoke"},  //And condition

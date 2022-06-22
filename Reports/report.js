@@ -52,6 +52,9 @@ formatter.background({
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "User is on homepage",
   "keyword": "Given "
@@ -98,6 +101,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenarioOutline({
   "name": "Login with authorized user",
   "description": "",
@@ -140,6 +146,9 @@ formatter.background({
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "User is on homepage",
   "keyword": "Given "
@@ -181,10 +190,16 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "Background section",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User is on homepage",
@@ -236,5 +251,8 @@ formatter.match({
 });
 formatter.result({
   "status": "skipped"
+});
+formatter.after({
+  "status": "passed"
 });
 });
